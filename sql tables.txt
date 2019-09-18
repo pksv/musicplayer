@@ -1,0 +1,25 @@
+1)	user: "",username,f_name, l_name, email,password, date, profile_pic
+2)	album: artist, id, title, genre, artworkPath
+3)	songs: title, id, plays, artist, album, genre, duration, path
+4)	artist: id,name, 
+5)	playlist: name, owner, date
+6)	playlistSongs: songId, playlistId,playlistOrder
+
+create table users (username varchar(30), f_name varchar(20), l_name varchar(20), email varchar(30), password varchar(50), date date, profile_pic varchar(30));
+
+create table albums (id varchar(10), artist varchar(20), title varchar(30), genre varchar(30), artworkPath varchar(30));
+
+create table songs (id varchar(10), title varchar(30), plays varchar(10), artist varchar(20), album varchar(20), genre varchar(30), duration time, path varchar(100));
+
+create table artists (id varchar(10), name varchar(20));
+
+create table playlists (id varchar(10), name varchar(30), owner varchar(20), date date);
+
+create table playlistSongs (songId varchar(10), playlistId varchar(10), playlistOrder varchar(10));
+
+
+
+
+create table user (name text, m_no text, gender text, email varchar(100) primary key, password text, premium text);
+
+create table
