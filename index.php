@@ -1,7 +1,9 @@
+
 <!DOCTYPE HTML>
-<html lang="zxx">
+<html>
 
 <head>
+	<?php include 'php/connection.php'	?>
 	<title>MusicPlayer::Login</title>
 	<script>
 		addEventListener("load", function () {
@@ -12,38 +14,37 @@
 			window.scrollTo(0, 1);
 		}
 	</script>
-	<!-- Meta tag Keywords -->
-
-	<!-- css files -->
 	<link rel="stylesheet" href="css/login.css" type="text/css" media="all" />
-	<!-- Style-CSS -->
 	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<!-- Font-Awesome-Icons-CSS -->
-	<!-- //css files -->
-
-	<!-- web-fonts -->
-	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext"
-	 rel="stylesheet">
-	<!-- //web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext" rel="stylesheet">
 </head>
 
 <body>
 	<div class="main-bg">
-		<!-- title -->
 		<h1>Music Player</h1>
-		<!-- //title -->
 		<div class="sub-main-w3">
 			<div class="image-style">
 
 			</div>
-			<!-- vertical tabs -->
 			<div class="vertical-tab">
 				<div id="section1" class="section-w3ls">
 					<input type="radio" name="sections" id="option1" checked>
 					<label for="option1" class="icon-left-w3pvt"><span class="fa fa-user-circle" aria-hidden="true"></span>Login</label>
 					<article>
-						<form action="#" method="post">
-							<h3 class="legend">Login Here</h3>
+						<form action="home.php" method="post">							
+						
+						<?php
+						$query = "insert into user values('pqr@gmail.com','pqr');";
+						mysqli_query($db, $query) or die('Error querying database.');
+						//$result = mysqli_query($db, $query);
+						//$row = mysqli_fetch_array($result);
+						//while ($row = mysqli_fetch_array($result)) {
+							echo 'running';
+						
+						mysqli_close($db);
+						?>
+						
+						<h3 class="legend">Login Here</h3>
 							<div class="input">
 								<span class="fa fa-envelope-o" aria-hidden="true"></span>
 								<input type="email" placeholder="Email" name="email" required />
