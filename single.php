@@ -1,31 +1,50 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Home</title>
+<title>Mosaic a Entertainment Category Flat Bootstrap Responsive Website Template | Single:: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mosaic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Graph CSS -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- jQuery -->
+<!-- lined-icons -->
 <link rel="stylesheet" href="css/icon-font.css" type='text/css' />
+<!-- //lined-icons -->
+ <!-- Meters graphs -->
 <script src="js/jquery-2.1.4.js"></script>
 
 
 </head> 
+    	 <!-- /w3layouts-agile -->
  <body class="sticky-header left-side-collapsed"  onload="initMap()">
     <section>
+      <!-- left side start-->
 		<div class="left-side sticky-left-side">
+
+			<!--logo and iconic logo start-->
 			<div class="logo">
 				<h1><a href="home.php">Mosai<span>c</span></a></h1>
 			</div>
 			<div class="logo-icon text-center">
 				<a href="home.php">M </a>
 			</div>
-			<div class="left-side-inner">
+
+			<!--logo and iconic logo end-->
+					<div class="left-side-inner">
+
+				<!--sidebar nav start-->
 					<ul class="nav nav-pills nav-stacked custom-nav">
 						<li class="active"><a href="home.php"><i class="lnr lnr-home"></i><span>Home</span></a></li>
+						
 						<li><a href="radio.php"><i class="camera"></i> <span>Radio</span></a></li>
+						<li><a href="#" data-toggle="modal" data-target="#myModal1"><i class="fa fa-th"></i><span>Apps</span></a></li>
 						<li><a href="radio.php"><i class="lnr lnr-users"></i> <span>Artists</span></a></li> 
 						<li><a href="browse.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
 						<li class="menu-list"><a href="browse.php"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>  
@@ -47,8 +66,12 @@
 							</ul>
 						</li>     
 					</ul>
+				<!--sidebar nav end-->
 			</div>
 		</div>
+		 	 <!-- /w3l-agile -->
+		<!-- left side end-->
+				<!-- app-->
 			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog facebook" role="document">
 					<div class="modal-content">
@@ -69,6 +92,7 @@
 							</div>
 						</div>
 						<div class="col-md-7 app-image">
+							<img src="images/apps.png" alt="">
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -77,6 +101,9 @@
 					</div>
 				</div>
 			</div>
+			<!-- //app-->
+			 	 <!-- /w3l-agileits -->
+		<!-- signup -->
 			<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content modal-info">
@@ -86,22 +113,22 @@
 						<div class="modal-body modal-spa">
 							<div class="sign-grids">
 								<div class="sign">
+									<div class="sign-left">
+										<ul>
+											<li><a class="fb" href="#"><i></i>Sign in with Facebook</a></li>
+											<li><a class="goog" href="#"><i></i>Sign in with Google</a></li>
+											<li><a class="linkin" href="#"><i></i>Sign in with Linkedin</a></li>
+										</ul>
+									</div>
 									<div class="sign-right">
 										<form action="#" method="post">
-											<span>
 											<h3>Create your account </h3>
 											<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
 											<input type="text" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-											<fieldset id="gender">
-											<input type="radio" name="gender" value="male"> Male
-											<input type="radio" name="gender" value="female"> Female
-											<input type="radio" name="gender" value="other"> Other
-											</fieldset>
 											<input type="text" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
 											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
 											
 											<input type="submit" value="CREATE ACCOUNT" >
-											</span>
 										</form>
 									</div>
 									<div class="clearfix"></div>								
@@ -112,26 +139,35 @@
 					</div>
 				</div>
 			</div>
+			<!-- //signup -->
+ 	 <!-- /w3l-agile-its -->
+		<!-- main content start-->
 		<div class="main-content">
+			<!-- header-starts -->
 			<div class="header-section">
+			<!--toggle button start-->
 			<a class="toggle-btn  menu-collapsed"><i class="fa fa-bars"></i></a>
+			<!--toggle button end-->
+			<!--notification menu start -->
 				<div class="menu-right">
 					<div class="profile_details">		
 						  <div class="col-md-4 serch-part">
 								<div id="sb-search" class="sb-search">
 									<form action="#" method="post">
-
 										<input class="sb-search-input" placeholder="Search" type="search" name="search" id="search">
 										<input class="sb-search-submit" type="submit" value="">
 										<span class="sb-icon-search"> </span>
 									</form>
 								</div>
 							</div>
+							  <!-- search-scripts -->
 									<script src="js/classie.js"></script>
 									<script src="js/uisearch.js"></script>
 										<script>
 											new UISearch( document.getElementById( 'sb-search' ) );
 										</script>
+									<!-- //search-scripts -->
+											 <!---->
 											  <div class="col-md-4 player">
 													<div class="audio-player">
 														<audio id="audio-player"  controls="controls">
@@ -153,8 +189,13 @@
 													});
 												 });
 												</script>
+												<!--audio-->
 													<link rel="stylesheet" type="text/css" media="all" href="css/audio.css">
 													<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+													<!---->
+
+ 	 <!-- /w3layouts-agile -->
+												<!--//-->
 												<ul class="next-top">
 													<li><a class="ar" href="#"> <img src="images/arrow.png" alt=""/></a></li>
 													<li><a class="ar2" href="#"><img src="images/arrow2.png" alt=""/></i></a></li>
@@ -162,9 +203,9 @@
 											 </ul>	
 											</div>
 											<div class="col-md-4 login-pop">
-												<div id="loginpop"> <a href="#" id="loginButton"><span>Login <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"><i class="fa fa-sign-in"></i></a>
-														<div id="loginBox">  
-												<form action="#" method="post" id="loginForm">
+												<div id="loginpop"><a href="#" id="loginButton"><span>Login <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"><i class="fa fa-sign-in"></i></a>
+														<div id="loginBox">                
+															<form action="#" method="post" id="loginForm">
 																	<fieldset id="body">
 																		<fieldset>
 																			  <label for="email">Email Address</label>
@@ -174,7 +215,7 @@
 																				<label for="password">Password</label>
 																				<input type="password" name="password" id="password">
 																		 </fieldset>
-																		<input type="submit" id="login" value="Sign in" ></a>
+																		<input type="submit" id="login" value="Sign in">
 																		<label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
 																	</fieldset>
 																<span><a href="#">Forgot your password?</a></span>
@@ -191,202 +232,18 @@
 				</div>
 			<!--notification menu end -->
 			<!-- //header-ends -->
- 	 <!-- /w3l-agileits -->
+ 	 <!-- /wthree-agile -->
 		<!-- //header-ends -->
 			<div id="page-wrapper">
-				<div class="inner-content">
 				
-				      <div class="music-left">
-					      <!--banner-section-->
-							<div class="banner-section">
-								<div class="banner">
-									 <div class="callbacks_container">
-										<ul class="rslides callbacks callbacks1" id="slider4">
-											   	<li>
-														<div class="banner-img">
-															 <img src="images/11.jpg" class="img-responsive" alt="">
-														 </div>
-														<div class="banner-info">
-														              <a class="trend" href="single.php">TRENDING</a>
-																	  <h3>Let Your Home</h3>
-																	  <p>Album by <span>Rock star</span></p>
-														 </div>
-
-												</li>
-												<li>
-													<div class="banner-img">
-															 <img src="images/22.jpg" class="img-responsive" alt="">
-														 </div>
-														<div class="banner-info">
-																	  <a class="trend" href="single.php">TRENDING</a>
-																	  <h3>Charis Brown feet</h3>
-																	  <p>Album by <span>Rock star</span></p>
-														 </div>
-
-
-												</li>
-												<li>
-												 <div class="banner-img">
-															 <img src="images/33.jpg" class="img-responsive" alt="">
-														 </div>
-														<div class="banner-info"> 
-														             <a class="trend" href="single.php">TRENDING</a>
-																	  <h3>Let Your Home</h3>
-																	  <p>Album by <span>Rock star</span></p>
-														 </div>
-
-												 	 <!-- /w3layouts-agileits -->
-												</li>
-											</ul>
-										</div>
-										<!--banner-->
-									<script src="js/responsiveslides.min.js"></script>
-								 <script>
-									// You can also use "$(window).load(function() {"
-									$(function () {
-									  // Slideshow 4
-									  $("#slider4").responsiveSlides({
-										auto: true,
-										pager:true,
-										nav:true,
-										speed: 500,
-										namespace: "callbacks",
-										before: function () {
-										  $('.events').append("<li>before event fired.</li>");
-										},
-										after: function () {
-										  $('.events').append("<li>after event fired.</li>");
-										}
-									  });
-								
-									});
-								  </script>
-								<div class="clearfix"> </div>
-							</div>
-						</div>	
-				<!--//End-banner-->
-					<!--albums-->
-					<!-- pop-up-box --> 
-							<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all">
-							<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-							 <script>
-									$(document).ready(function() {
-									$('.popup-with-zoom-anim').magnificPopup({
-										type: 'inline',
-										fixedContentPos: false,
-										fixedBgPos: true,
-										overflowY: 'auto',
-										closeBtnInside: true,
-										preloader: false,
-										midClick: true,
-										removalDelay: 300,
-										mainClass: 'my-mfp-zoom-in'
-									});
-									});
-							</script>		
-					<!--//pop-up-box -->
-						<div class="albums">
-								<div class="tittle-head">
-									<h3 class="tittle">New Releases <span class="new">New</span></h3>
-									<a href="home.php"><h4 class="tittle">See all</h4></a>
+				<div class="inner-content single">
+						    <!--/music-right-->
+							
+						<div class="tittle-head">
+									<h3 class="tittle">Single <span class="new">Page</span></h3>
 									<div class="clearfix"> </div>
 								</div>
-								<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v1.jpg" title="allbum-name"></a>
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div id="small-dialog" class="mfp-hide">
-								<iframe src="https://player.vimeo.com/video/12985622"></iframe>
-								
-							</div>
-							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v2.jpg" title="allbum-name"></a>
-
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v3.jpg" title="allbum-name"></a>
-
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div class="col-md-3 content-grid last-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v4.jpg" title="allbum-name"></a>
-	
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v5.jpg" title="allbum-name"></a>
-
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div id="small-dialog" class="mfp-hide">
-								<iframe src="https://player.vimeo.com/video/12985622"></iframe>
-								
-							</div>
-							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v6.jpg" title="allbum-name"></a>
-		
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v7.jpg" title="allbum-name"></a>
-
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div class="col-md-3 content-grid last-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v8.jpg" title="allbum-name"></a>
-												<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-											</div>
-											<div class="clearfix"> </div>
-										</div>
-					<!--//End-albums-->
-						<!--//discover-view-->
-						
-						<div class="albums second">
-										<div class="tittle-head">
-											<h3 class="tittle">Discover <span class="new">View</span></h3>
-											<a href="home.php"><h4 class="tittle two">See all</h4></a>
-											<div class="clearfix"> </div>
-										</div>
-											<div class="col-md-3 content-grid">
-												<a href="single.php"><img src="images/v11.jpg" title="allbum-name"></a>
-												<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid">
-													<a href="single.php"><img src="images/v22.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-												</div>
-											<div class="col-md-3 content-grid">
-													<a href="single.php"><img src="images/v33.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-												</div>
-											<div class="col-md-3 content-grid last-grid">
-													<a href="single.php"><img src="images/v44.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid">
-													<a href="single.php"><img src="images/v55.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid">
-												<a href="single.php"><img src="images/v66.jpg" title="allbum-name"></a>
-												<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid">
-													<a href="single.php"><img src="images/v11.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid last-grid">
-													<a href="single.php"><img src="images/v22.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="clearfix"> </div>
-									</div>
-								<!--//discover-view-->
-							</div>
-							<!--//music-left-->
-						    <!--/music-right-->
-						   <div class="music-right">
+						   <div class="single_left">
 								<!--/video-main-->
 								 <div class="video-main">
 									<div class="video-record-list">
@@ -520,53 +377,133 @@
 				//]]>
 					</script>
 			<!-- //script for play-list -->
-
-								 <!--/start-paricing-tables-->
-									<div class="price-section">
-											<div class="pricing-inner">
-												<h3 class="hd-tittle">Upgrade your Plan</h3>
-												<div class="pricing">
-													<div class="price-top">
-														<h3><span>$20</span></h3>
-														<h4>per year</h4>
-													</div>
-													<div class="price-bottom">
-														<ul>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Download unlimited songs</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Stream songs in High Definition</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">No ads unlimited Devices</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Stream songs in High Definition</a><div class="clearfix"></div></li>
-														</ul>
-														<a href="single.php" class="price">Upgrade</a>
-													</div>
-												</div>
-												<div class="pricing two">
-													<div class="price-top">
-														<h3><span>$30</span></h3>
-														<h4>per year</h4>
-													</div>
-													<div class="price-bottom">
-														<ul>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Download unlimited songs</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Stream songs in High Definition</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">No ads unlimited Devices</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Stream songs in High Definition</a><div class="clearfix"></div></li>
-														</ul>
-														<a href="single.php" class="price">Upgrade</a>
-													</div>
-												</div>
-													<div class="clearfix"></div>
-												</div>
-												<!--//end-pricing-tables-->
-												</div>
-											</div>
-													 <!--//music-right-->
-											<div class="clearfix"></div>
-			 	 <!-- /w3l-agile-its -->
-										</div>
-						<!--body wrapper start-->
+						<!--//video-main-->
+						 	 <!-- /agileinfo -->
+				</div>
+				<div class="response">
+					<h4>Responses</h4>
+					<div class="media response-info">
+						<div class="media-left response-text-left">
+							<a href="#">
+								<img class="media-object" src="images/c1.jpg" alt="">
+							</a>
+							<h5><a href="#">Username</a></h5>
+						</div>
+						<div class="media-body response-text-right">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<ul>
+								<li>Sep 21, 2015</li>
+								<li><a href="single.php">Reply</a></li>
+							</ul>
+							<div class="media response-info">
+								<div class="media-left response-text-left">
+									<a href="#">
+										<img class="media-object" src="images/c2.jpg" alt="">
+									</a>
+									<h5><a href="#">Username</a></h5>
+								</div>
+								<div class="media-body response-text-right">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<ul>
+										<li>Apr 17, 2016</li>
+										<li><a href="single.php">Reply</a></li>
+									</ul>		
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="media response-info">
+						<div class="media-left response-text-left">
+							<a href="#">
+								<img class="media-object" src="images/c3.jpg" alt="">
+							</a>
+							<h5><a href="#">Username</a></h5>
+						</div>
+						<div class="media-body response-text-right">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<ul>
+								<li>May 21,2016</li>
+								<li><a href="single.php">Reply</a></li>
+							</ul>		
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="media response-info">
+						<div class="media-left response-text-left">
+							<a href="#">
+								<img class="media-object" src="images/c4.jpg" alt="">
+							</a>
+							<h5><a href="#">Username</a></h5>
+						</div>
+						<div class="media-body response-text-right">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<ul>
+								<li>Mar 28, 2016</li>
+								<li><a href="single.php">Reply</a></li>
+							</ul>
+							<div class="media response-info">
+								<div class="media-left response-text-left">
+									<a href="#">
+										<img class="media-object" src="images/c5.jpg" alt="">
+									</a>
+									<h5><a href="#">Username</a></h5>
+								</div>
+								<div class="media-body response-text-right">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<ul>
+										<li>Feb 19, 2016</li>
+										<li><a href="single.php">Reply</a></li>
+									</ul>		
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="media response-info">
+						<div class="media-left response-text-left">
+							<a href="#">
+								<img class="media-object" src="images/c6.jpg" alt="">
+							</a>
+							<h5><a href="#">Username</a></h5>
+						</div>
+						<div class="media-body response-text-right">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<ul>
+								<li>Jan 20, 2016</li>
+								<li><a href="single.php">Reply</a></li>
+							</ul>		
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				 	 <!-- /agileits -->
+				<div class="clearfix"> </div>
+						<!--//music-right-->
 						
+						<div class="coment-form">
+					<h4>Leave your comment</h4>
+					<form action="#" method="post">
+						<input type="text" value="Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+						<input type="email" value="Email (will not be published)*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email (will not be published)*';}" required="">
+						<input type="text" value="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" required="">
+						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Comment...';}" required="">Your Comment...</textarea>
+						<input type="submit" value="Submit Comment">
+					</form>
+				</div>
+			</div>
+			 	 <!-- /w3l-agileits-->
+						<!--body wrapper start-->
 						<div class="review-slider">
+						
 								<div class="tittle-head">
 									<h3 class="tittle">Featured Albums <span class="new"> New</span></h3>
 									<div class="clearfix"> </div>
@@ -672,13 +609,14 @@
 						</script>
 						<script type="text/javascript" src="js/jquery.flexisel.js"></script>	
 						</div>
-								</div>
-							<div class="clearfix"></div>
+
+				</div>
+			<div class="clearfix"></div>
 						<!--body wrapper end-->
- 	 <!-- /w3l-agile -->
+ 	 <!-- /w3layouts-agile -->
 					</div>
 			  <!--body wrapper end-->
-			     <div class="footer">
+			      <div class="footer two">
 				<div class="footer-grid">
 					<h3>Navigation</h3>
 					<ul class="list1">
@@ -733,8 +671,13 @@
 					 <div class="clearfix"> </div>
 				</div>
 			</div>
-       
- 	 <!-- /w3l-agile -->
+			 	 <!-- /w3layouts-agile -->
+        <!--footer section start-->
+			<footer>
+			   <p>&copy 2016 Mosaic. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts.</a></p>
+			</footer>
+        <!--footer section end-->
+
       <!-- main content end-->
    </section>
   

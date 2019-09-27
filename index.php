@@ -1,9 +1,7 @@
-
 <!DOCTYPE HTML>
 <html>
 
 <head>
-	<?php include 'php/connection.php'	?>
 	<title>MusicPlayer::Login</title>
 	<script>
 		addEventListener("load", function () {
@@ -33,16 +31,7 @@
 					<article>
 						<form action="home.php" method="post">							
 						
-						<?php
-						$query = "insert into user values('pqr@gmail.com','pqr');";
-						mysqli_query($db, $query) or die('Error querying database.');
-						//$result = mysqli_query($db, $query);
-						//$row = mysqli_fetch_array($result);
-						//while ($row = mysqli_fetch_array($result)) {
-							echo 'running';
 						
-						mysqli_close($db);
-						?>
 						
 						<h3 class="legend">Login Here</h3>
 							<div class="input">
@@ -62,7 +51,7 @@
 					<input type="radio" name="sections" id="option2">
 					<label for="option2" class="icon-left-w3pvt"><span class="fa fa-pencil-square" aria-hidden="true"></span>Register</label>
 					<article>
-						<form action="#" method="post">
+						<form action="sql/register.php" method="post">
 							<h3 class="legend">Register Here</h3>
 							<div class="input">
 								<span class="fa fa-envelope-o" aria-hidden="true"></span>
@@ -98,7 +87,6 @@
 					</article>
 				</div>
 			</div>
-			<!-- //vertical tabs -->
 			<div class="clear"></div>
 		</div>
 	</div>
