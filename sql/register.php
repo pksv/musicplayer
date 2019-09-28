@@ -4,6 +4,6 @@
 	$pass = $_POST['password'];
 	$query = "insert into user values('$email','$pass');";
 	mysqli_query($db, $query) or die('Error querying database.');		
-	header( 'location: C:\wamp64\www\musicplayer\index.php');
+	header("Location: C:\wamp64\www\musicplayer\login.php");
 	mysqli_close($db);
 ?>
