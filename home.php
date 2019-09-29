@@ -1,14 +1,16 @@
-<!DOCTYPE HTML>
+<?php
+
+echo '<!DOCTYPE HTML>
 <html>
 <head>
 <title>Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<link rel="stylesheet" href="css/icon-font.css" type='text/css' />
+<link rel="stylesheet" href="css/icon-font.css" type="text/css" />
 <script src="js/jquery-2.1.4.js"></script>
 
 
@@ -90,15 +92,15 @@
 										<form action="#" method="post">
 											<span>
 											<h3>Create your account </h3>
-											<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-											<input type="text" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+											<input type="text" value="Name" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Name";}" required="">
+											<input type="text" value="Mobile number" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Mobile number";}" required="">
 											<fieldset id="gender">
 											<input type="radio" name="gender" value="male"> Male
 											<input type="radio" name="gender" value="female"> Female
 											<input type="radio" name="gender" value="other"> Other
 											</fieldset>
-											<input type="text" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
-											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<input type="text" value="Email id" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Email id";}" required="">	
+											<input type="password" value="Password" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Password";}" required="">	
 											
 											<input type="submit" value="CREATE ACCOUNT" >
 											</span>
@@ -130,7 +132,7 @@
 									<script src="js/classie.js"></script>
 									<script src="js/uisearch.js"></script>
 										<script>
-											new UISearch( document.getElementById( 'sb-search' ) );
+											new UISearch( document.getElementById( "sb-search" ) );
 										</script>
 											  <div class="col-md-4 player">
 													<div class="audio-player">
@@ -143,10 +145,10 @@
 												<!---->
 												<script type="text/javascript">
 													$(function(){
-													  $('#audio-player').mediaelementplayer({
+													  $("#audio-player").mediaelementplayer({
 														alwaysShowControls: true,
-														features: ['playpause','progress','volume'],
-														audioVolume: 'horizontal',
+														features: ["playpause","progress","volume"],
+														audioVolume: "horizontal",
 														iPadUseNativeControls: true,
 														iPhoneUseNativeControls: true,
 														AndroidUseNativeControls: true
@@ -252,10 +254,10 @@
 										speed: 500,
 										namespace: "callbacks",
 										before: function () {
-										  $('.events').append("<li>before event fired.</li>");
+										  $(".events").append("<li>before event fired.</li>");
 										},
 										after: function () {
-										  $('.events').append("<li>after event fired.</li>");
+										  $(".events").append("<li>after event fired.</li>");
 										}
 									  });
 								
@@ -271,16 +273,16 @@
 							<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 							 <script>
 									$(document).ready(function() {
-									$('.popup-with-zoom-anim').magnificPopup({
-										type: 'inline',
+									$(".popup-with-zoom-anim").magnificPopup({
+										type: "inline",
 										fixedContentPos: false,
 										fixedBgPos: true,
-										overflowY: 'auto',
+										overflowY: "auto",
 										closeBtnInside: true,
 										preloader: false,
 										midClick: true,
 										removalDelay: 300,
-										mainClass: 'my-mfp-zoom-in'
+										mainClass: "my-mfp-zoom-in"
 									});
 									});
 							</script>		
@@ -743,4 +745,5 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.js"></script>
 </body>
-</html>
+</html>';
+?>

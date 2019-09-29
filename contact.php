@@ -1,5 +1,6 @@
+<?php
 
-<!DOCTYPE HTML>
+echo '<!DOCTYPE HTML>
 <html>
 <head>
 <title>Contact</title>
@@ -7,14 +8,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 <!-- Custom CSS -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <!-- Graph CSS -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- jQuery -->
 <!-- lined-icons -->
-<link rel="stylesheet" href="css/icon-font.css" type='text/css' />
+<link rel="stylesheet" href="css/icon-font.css" type="text/css" />
 <!-- //lined-icons -->
  <!-- Meters graphs -->
 <script src="js/jquery-2.1.4.js"></script>
@@ -119,10 +120,10 @@
 									<div class="sign-right">
 										<form action="#" method="post">
 											<h3>Create your account </h3>
-											<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-											<input type="text" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-											<input type="text" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
-											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<input type="text" value="Name" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Name";}" required="">
+											<input type="text" value="Mobile number" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Mobile number";}" required="">
+											<input type="text" value="Email id" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Email id";}" required="">	
+											<input type="password" value="Password" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Password";}" required="">	
 											
 											<input type="submit" value="CREATE ACCOUNT">
 										</form>
@@ -160,7 +161,7 @@
 									<script src="js/classie.js"></script>
 									<script src="js/uisearch.js"></script>
 										<script>
-											new UISearch( document.getElementById( 'sb-search' ) );
+											new UISearch( document.getElementById( "sb-search" ) );
 										</script>
 									<!-- //search-scripts -->
 											 <!---->
@@ -175,10 +176,10 @@
 												<!---->
 												<script type="text/javascript">
 													$(function(){
-													  $('#audio-player').mediaelementplayer({
+													  $("#audio-player").mediaelementplayer({
 														alwaysShowControls: true,
-														features: ['playpause','progress','volume'],
-														audioVolume: 'horizontal',
+														features: ["playpause","progress","volume"],
+														audioVolume: "horizontal",
 														iPadUseNativeControls: true,
 														iPhoneUseNativeControls: true,
 														AndroidUseNativeControls: true
@@ -255,18 +256,18 @@
 										<div class="in-left">
 										<form action="#" method="post">
 												<p class="your-para">Your Name :</p>
-														<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+														<input type="text" value="" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "";}" required="">
 											
 														<p class="your-para">Your Mail :</p>
-														<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+														<input type="text" value="" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "";}" required="">
 														<p class="your-para">Phone Number:</p>
-														<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+														<input type="text" value="" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "";}" required="">
 
 											</form>
 										</div>
 										<div class="in-right">
 											<form>
-												<textarea placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}" required=""></textarea>
+												<textarea placeholder="" onfocus="this.value="";" onblur="if (this.value == "") {this.value = "";}" required=""></textarea>
 												<input type="submit" value="Submit">
 											</form>
 										</div>
@@ -348,4 +349,5 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.js"></script>
 </body>
-</html>
+</html>';
+?>

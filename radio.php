@@ -1,5 +1,6 @@
+<?php
 
-<!DOCTYPE HTML>
+echo '<!DOCTYPE HTML>
 <html>
 <head>
 <title>Radio</title>
@@ -9,12 +10,12 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<link rel="stylesheet" href="css/icon-font.css" type='text/css' />
+<link rel="stylesheet" href="css/icon-font.css" type="text/css" />
 <script src="js/jquery-2.1.4.js"></script>
 
 
@@ -113,10 +114,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div class="sign-right">
 									    <form action="#" method="post">
 											<h3>Create your account </h3>
-											<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-											<input type="text" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-											<input type="text" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
-											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<input type="text" value="Name" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Name";}" required="">
+											<input type="text" value="Mobile number" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Mobile number";}" required="">
+											<input type="text" value="Email id" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Email id";}" required="">	
+											<input type="password" value="Password" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Password";}" required="">	
 											
 											<input type="submit" value="CREATE ACCOUNT" >
 										</form>
@@ -146,7 +147,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<script src="js/classie.js"></script>
 									<script src="js/uisearch.js"></script>
 										<script>
-											new UISearch( document.getElementById( 'sb-search' ) );
+											new UISearch( document.getElementById( "sb-search" ) );
 										</script>
 											  <div class="col-md-4 player">
 													<div class="audio-player">
@@ -158,10 +159,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														</div>
 												<script type="text/javascript">
 													$(function(){
-													  $('#audio-player').mediaelementplayer({
+													  $("#audio-player").mediaelementplayer({
 														alwaysShowControls: true,
-														features: ['playpause','progress','volume'],
-														audioVolume: 'horizontal',
+														features: ["playpause","progress","volume"],
+														audioVolume: "horizontal",
 														iPadUseNativeControls: true,
 														iPhoneUseNativeControls: true,
 														AndroidUseNativeControls: true
@@ -216,16 +217,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 							 <script>
 									$(document).ready(function() {
-									$('.popup-with-zoom-anim').magnificPopup({
-										type: 'inline',
+									$(".popup-with-zoom-anim").magnificPopup({
+										type: "inline",
 										fixedContentPos: false,
 										fixedBgPos: true,
-										overflowY: 'auto',
+										overflowY: "auto",
 										closeBtnInside: true,
 										preloader: false,
 										midClick: true,
 										removalDelay: 300,
-										mainClass: 'my-mfp-zoom-in'
+										mainClass: "my-mfp-zoom-in"
 									});
 									});
 							</script>		
@@ -908,4 +909,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <script src="js/bootstrap.js"></script>
 </body>
-</html>
+</html>';
+?>

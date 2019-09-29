@@ -1,4 +1,6 @@
-<!DOCTYPE HTML>
+<?php
+
+echo '<!DOCTYPE HTML>
 <html>
 <head>
 <title>Mosaic a Entertainment Category Flat Bootstrap Responsive Website Template | Browse :: w3layouts</title>
@@ -7,39 +9,36 @@
 <meta name="keywords" content="Mosaic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
- <!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom CSS -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<!-- Graph CSS -->
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- jQuery -->
-<!-- lined-icons -->
-<link rel="stylesheet" href="css/icon-font.css" type='text/css' />
-<!-- //lined-icons -->
- <!-- Meters graphs -->
+
+<link rel="stylesheet" href="css/icon-font.css" type="text/css" />
+
 <script src="js/jquery-2.1.4.js"></script>
 
 
 </head> 
-    	 <!-- /w3layouts-agile -->
+
  <body class="sticky-header left-side-collapsed"  onload="initMap()">
     <section>
-      <!-- left side start-->
+
 		<div class="left-side sticky-left-side">
 
-			<!--logo and iconic logo start-->
+
 			<div class="logo">
 				<h1><a href="home.php">Mosai<span>c</span></a></h1>
 			</div>
 			<div class="logo-icon text-center">
 				<a href="home.php">M </a>
 			</div>
- 	 <!-- /w3layouts-agile -->
-			<!--logo and iconic logo end-->
+ 	 
 					<div class="left-side-inner">
 
-				<!--sidebar nav start-->
+	
 					<ul class="nav nav-pills nav-stacked custom-nav">
 						<li class="active"><a href="home.php"><i class="lnr lnr-home"></i><span>Home</span></a></li>
 						
@@ -66,11 +65,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</ul>
 						</li>     
 					</ul>
-				<!--sidebar nav end-->
+	
 			</div>
 		</div>
-		<!-- left side end-->
-					<!-- app-->
+	
+	
 			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog facebook" role="document">
 					<div class="modal-content">
@@ -100,10 +99,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 			</div>
-			<!-- //app-->
-			 	 <!-- /w3l-agile -->
-		<!-- signup -->
-			<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	
+	<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content modal-info">
 						<div class="modal-header">
@@ -122,10 +119,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<div class="sign-right">
 										<form action="#" method="post">
 											<h3>Create your account </h3>
-											<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-											<input type="text" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-											<input type="text" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
-											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<input type="text" value="Name" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Name";}" required="">
+											<input type="text" value="Mobile number" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Mobile number";}" required="">
+											<input type="text" value="Email id" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Email id";}" required="">	
+											<input type="password" value="Password" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Password";}" required="">	
 											
 											<input type="submit" value="CREATE ACCOUNT" >
 										</form>
@@ -138,16 +135,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 			</div>
-			<!-- //signup -->
- 	 <!-- /agileits -->
-		<!-- main content start-->
+
 		<div class="main-content">
-			<!-- header-starts -->
+
 			<div class="header-section">
-			<!--toggle button start-->
+
 			<a class="toggle-btn  menu-collapsed"><i class="fa fa-bars"></i></a>
-			<!--toggle button end-->
-			<!--notification menu start -->
+
 				<div class="menu-right">
 					<div class="profile_details">		
 						  <div class="col-md-4 serch-part">
@@ -159,14 +153,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</form>
 								</div>
 							</div>
-							  <!-- search-scripts -->
+
 									<script src="js/classie.js"></script>
 									<script src="js/uisearch.js"></script>
 										<script>
-											new UISearch( document.getElementById( 'sb-search' ) );
+											new UISearch( document.getElementById( "sb-search" ) );
 										</script>
-									<!-- //search-scripts -->
-											 <!---->
+
 											  <div class="col-md-4 player">
 													<div class="audio-player">
 														<audio id="audio-player"  controls="controls">
@@ -175,26 +168,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																<source src="media/Georgia.ogg" type="audio/ogg"></source>
 																<source src="media/Georgia.mp3" type="audio/mpeg"></source></audio>
 														</div>
-												<!---->
+
 												<script type="text/javascript">
 													$(function(){
-													  $('#audio-player').mediaelementplayer({
+													  $("#audio-player").mediaelementplayer({
 														alwaysShowControls: true,
-														features: ['playpause','progress','volume'],
-														audioVolume: 'horizontal',
+														features: ["playpause","progress","volume"],
+														audioVolume: "horizontal",
 														iPadUseNativeControls: true,
 														iPhoneUseNativeControls: true,
 														AndroidUseNativeControls: true
 													});
 												 });
 												</script>
-												<!--audio-->
+
 													<link rel="stylesheet" type="text/css" media="all" href="css/audio.css">
 													<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
-													<!---->
- 	 <!-- /agileits -->
 
-												<!--//-->
+
 												<ul class="next-top">
 													<li><a class="ar" href="#"> <img src="images/arrow.png" alt=""/></a></li>
 													<li><a class="ar2" href="#"><img src="images/arrow2.png" alt=""/></i></a></li>
@@ -225,14 +216,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											</div>
 										<div class="clearfix"> </div>
 								</div>
-							<!-------->
+
 						</div>
 					<div class="clearfix"></div>
 				</div>
-			<!--notification menu end -->
-			<!-- //header-ends -->
- 	 <!-- /agileinfo -->
-		<!-- //header-ends -->
+
 			<div id="page-wrapper">
 				<div class="inner-content">
 				      <div class="music-browse">
@@ -242,20 +230,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
 							 <script>
 									$(document).ready(function() {
-									$('.popup-with-zoom-anim').magnificPopup({
-										type: 'inline',
+									$(".popup-with-zoom-anim").magnificPopup({
+										type: "inline",
 										fixedContentPos: false,
 										fixedBgPos: true,
-										overflowY: 'auto',
+										overflowY: "auto",
 										closeBtnInside: true,
 										preloader: false,
 										midClick: true,
 										removalDelay: 300,
-										mainClass: 'my-mfp-zoom-in'
+										mainClass: "my-mfp-zoom-in"
 									});
 									});
 							</script>		
-					<!--//pop-up-box -->
 					
 						<div class="browse">
 								<div class="tittle-head two">
@@ -326,7 +313,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 											<div class="clearfix"> </div>
 									</div>
-					<!--//End-albums-->
+
 					
 					<div class="browse">
 								<div class="col-md-3 browse-grid">
@@ -391,12 +378,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 											<div class="clearfix"> </div>
 									</div>
-					<!--//End-albums-->
-						<!--//discover-view-->
-							<!--//music-left-->
 							</div>
-							
-						<!--body wrapper start-->
+
 						<div class="review-slider">
 								<div class="tittle-head">
 									<h3 class="tittle">Featured Albums <span class="new"> New</span></h3>
@@ -505,10 +488,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 								</div>
 							<div class="clearfix"></div>
-						<!--body wrapper end-->
- 	 <!-- /w3l-agile-info -->
+
 					</div>
-			  <!--body wrapper end-->
+
 			     <div class="footer two">
 				<div class="footer-grid">
 					<h3>Navigation</h3>
@@ -564,18 +546,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					 <div class="clearfix"> </div>
 				</div>
 			</div>
-        <!--footer section start-->
-			<footer>
-			   <p>&copy 2016 Mosaic. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts.</a></p>
-			</footer>
-        <!--footer section end-->
- 	 <!-- /wthree-agile -->
-      <!-- main content end-->
    </section>
-   	 <!-- /wthree-agile -->
+
 <script src="js/jquery.nicescroll.js"></script>
 <script src="js/scripts.js"></script>
-<!-- Bootstrap Core JavaScript -->
+
 <script src="js/bootstrap.js"></script>
 </body>
-</html>
+</html>';
+?>
