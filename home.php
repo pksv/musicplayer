@@ -12,9 +12,16 @@ echo '<!DOCTYPE HTML>
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <link rel="stylesheet" href="css/icon-font.css" type="text/css" />
 <script src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript">
+function logout() {
+    var r = confirm("Do you really want to log out?");
+    if (r) {
+       window.location.href = "sql/logout.php";
+    }
+}
+</script>
 
-
-</head> 
+</head>
  <body class="sticky-header left-side-collapsed"  onload="initMap()">
     <section>
 		<div class="left-side sticky-left-side">
@@ -81,37 +88,6 @@ echo '<!DOCTYPE HTML>
 			</div>
 			<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-							<div class="sign-grids">
-								<div class="sign">
-									<div class="sign-right">
-										<form action="#" method="post">
-											<span>
-											<h3>Create your account </h3>
-											<input type="text" value="Name" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Name";}" required="">
-											<input type="text" value="Mobile number" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Mobile number";}" required="">
-											<fieldset id="gender">
-											<input type="radio" name="gender" value="male"> Male
-											<input type="radio" name="gender" value="female"> Female
-											<input type="radio" name="gender" value="other"> Other
-											</fieldset>
-											<input type="text" value="Email id" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Email id";}" required="">	
-											<input type="password" value="Password" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Password";}" required="">	
-											
-											<input type="submit" value="CREATE ACCOUNT" >
-											</span>
-										</form>
-									</div>
-									<div class="clearfix"></div>								
-								</div>
-								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		<div class="main-content">
@@ -164,24 +140,8 @@ echo '<!DOCTYPE HTML>
 											 </ul>	
 											</div>
 											<div class="col-md-4 login-pop">
-												<div id="loginpop"> <a href="#" id="loginButton"><span>Login <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"><i class="fa fa-sign-in"></i></a>
-														<div id="loginBox">  
-												<form action="#" method="post" id="loginForm">
-																	<fieldset id="body">
-																		<fieldset>
-																			  <label for="email">Email Address</label>
-																			  <input type="text" name="email" id="email">
-																		</fieldset>
-																		<fieldset>
-																				<label for="password">Password</label>
-																				<input type="password" name="password" id="password">
-																		 </fieldset>
-																		<input type="submit" id="login" value="Sign in" ></a>
-																		<label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
-																	</fieldset>
-																<span><a href="#">Forgot your password?</a></span>
-														 </form>
-													</div>
+												<div id="loginpop"> <a onClick="logout();" id="logoutButton"><span>Logout <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"></a>
+														
 												</div>
 
 											</div>
