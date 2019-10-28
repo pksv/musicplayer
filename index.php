@@ -1,6 +1,4 @@
-<?php
-
-echo ' <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 	<title>MusicPlayer::Login</title>
@@ -14,6 +12,51 @@ echo ' <!DOCTYPE HTML>
 		}
 		
 	</script>
+
+<?php
+	if(isset($_POST['login'])){
+		include "sql/connection.php";
+		$email = $_POST["email"];
+		$pass = $_POST["password"];
+		$sql = "SELECT * FROM `user` WHERE email = '$email'";
+		$res = mysqli_query($db, $sql);
+		$count = mysqli_num_rows($res);
+		if($count == 1){
+			$r = mysqli_fetch_assoc($res);
+			$passdb=$r['password'];
+			if($pass==$passdb){
+				echo "<script> window.location='http://localhost/musicplayer/home.php';</script>";
+			}
+			else{
+				echo "<script> alert('Incorrect Password');
+						window.location='http://localhost/musicplayer/index.php';
+						</script>";
+			}
+		}
+		else{
+		echo "<script> alert('Invalid Details');
+					window.location='http://localhost/musicplayer/index.php';
+				</script>";
+		}		
+		exit;
+		mysqli_close($db);
+	}
+	
+	if(isset($_POST['register'])){
+		include "sql/connection.php";
+		$email = $_POST["email"];
+		$pass = $_POST["password"];
+		$query = "insert into user values('$email','$pass');";
+		if(mysqli_query($db, $query) or die("Error querying database."))
+			echo "<script> 
+						alert('Registered Successfully');
+						window.location='http://localhost/musicplayer/index.php';
+				</script>";
+		exit;
+		mysqli_close($db);
+	}
+?>
+
 	<link rel="stylesheet" href="css/login.css" type="text/css" media="all" />
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext" rel="stylesheet">
@@ -31,9 +74,7 @@ echo ' <!DOCTYPE HTML>
 					<input type="radio" name="sections" id="option1" checked>
 					<label for="option1" class="icon-left-w3pvt"><span class="fa fa-user-circle" aria-hidden="true"></span>Login</label>
 					<article>
-						<form id="form1" action="home.php" method="post">							
-						
-						
+						<form id="form1" method="post">
 						
 						<h3 class="legend">Login Here</h3>
 							<div class="input">
@@ -44,7 +85,7 @@ echo ' <!DOCTYPE HTML>
 								<span class="fa fa-key" aria-hidden="true"></span>
 								<input type="password" placeholder="Password" name="password" required  autocomplete="off"/>
 							</div>
-							<button type="submit" class="btn submit" >Login</button>
+							<button type="submit" class="btn submit" name="login">Login</button>
 							<a href="#" class="bottom-text-w3ls">Forgot Password?</a>
 						</form>
 					</article>
@@ -53,7 +94,7 @@ echo ' <!DOCTYPE HTML>
 					<input type="radio" name="sections" id="option2">
 					<label for="option2" class="icon-left-w3pvt"><span class="fa fa-pencil-square" aria-hidden="true"></span>Register</label>
 					<article>
-						<form id="form2" action="sql/register.php" method="post">
+						<form id="form2" method="post">
 							<h3 class="legend">Register Here</h3>
 							<div class="input">
 								<span class="fa fa-envelope-o" aria-hidden="true"></span>
@@ -67,7 +108,7 @@ echo ' <!DOCTYPE HTML>
 								<span class="fa fa-key" aria-hidden="true"></span>
 								<input type="password" placeholder="Confirm Password" name="password" required  autocomplete="off" value=""/>
 							</div>
-							<button type="submit" class="btn submit" >Register</button>
+							<button type="submit" class="btn submit" name="register">Register</button>
 						</form>
 					</article>
 				</div>
@@ -95,5 +136,4 @@ echo ' <!DOCTYPE HTML>
 
 </body>
 
-</html>';
-?>
+</html>

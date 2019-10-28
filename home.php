@@ -1,6 +1,4 @@
-<?php
-
-echo '<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Home</title>
@@ -26,7 +24,7 @@ function logout() {
     <section>
 		<div class="left-side sticky-left-side">
 			<div class="logo">
-				<h1><a href="home.php">Mosai<span>c</span></a></h1>
+				<h1><a href="home.php">Musi<span>c</span></a></h1>
 			</div>
 			<div class="logo-icon text-center">
 				<a href="home.php">M </a>
@@ -44,7 +42,6 @@ function logout() {
 							</ul>
 						</li>
 						<li><a href="blog.php"><i class="lnr lnr-book"></i><span>Blog</span></a></li>
-						<li><a href="typography.php"><i class="lnr lnr-pencil"></i> <span>Typography</span></a></li>
 						<li class="menu-list"><a href="#"><i class="lnr lnr-heart"></i>  <span>My Favourities</span></a> 
 							<ul class="sub-menu-list">
 								<li><a href="radio.php">All Songs</a></li>
@@ -67,16 +64,7 @@ function logout() {
 						<div class="modal-body">
 							<div class="app-grids">
 								<div class="app">
-						<div class="col-md-5 app-left mpl">
-							<h3>Mosaic mobile app on your smartphone!</h3>
-							<p>Download and Avail Special Songs Videos and Audios.</p>
-							<div class="app-devices">
-								<h5>Gets the app from</h5>
-								<a href="#"><img src="images/1.png" alt=""></a>
-								<a href="#"><img src="images/2.png" alt=""></a>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
+						
 						<div class="col-md-7 app-image">
 						</div>
 						<div class="clearfix"></div>
@@ -140,8 +128,19 @@ function logout() {
 											 </ul>	
 											</div>
 											<div class="col-md-4 login-pop">
-												<div id="loginpop"> <a onClick="logout();" id="logoutButton"><span>Logout <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"></a>
-														
+												<div id="loginpop"><a id="loginButton"><span>Profile <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"></a>
+														<div id="loginBox"> 
+													<form method="post" id="loginForm">
+																	<fieldset id="body">
+																		<fieldset>
+																			  <label for="email">Email Address</label>
+																			  <input type="text" name="email" id="email">
+																		</fieldset>
+																		<input type="submit" id="login" value="Logout" onClick="logout()">
+																	</fieldset>
+																<span><a href="#"></a></span>
+														 </form>
+													</div>
 												</div>
 
 											</div>
@@ -153,7 +152,6 @@ function logout() {
 				</div>
 			<!--notification menu end -->
 			<!-- //header-ends -->
- 	 <!-- /w3l-agileits -->
 		<!-- //header-ends -->
 			<div id="page-wrapper">
 				<div class="inner-content">
@@ -196,8 +194,6 @@ function logout() {
 																	  <h3>Let Your Home</h3>
 																	  <p>Album by <span>Rock star</span></p>
 														 </div>
-
-												 	 <!-- /w3layouts-agileits -->
 												</li>
 											</ul>
 										</div>
@@ -483,54 +479,16 @@ function logout() {
 					</script>
 			<!-- //script for play-list -->
 
-								 <!--/start-paricing-tables-->
-									<div class="price-section">
-											<div class="pricing-inner">
-												<h3 class="hd-tittle">Upgrade your Plan</h3>
-												<div class="pricing">
-													<div class="price-top">
-														<h3><span>$20</span></h3>
-														<h4>per year</h4>
-													</div>
-													<div class="price-bottom">
-														<ul>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Download unlimited songs</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Stream songs in High Definition</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">No ads unlimited Devices</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Stream songs in High Definition</a><div class="clearfix"></div></li>
-														</ul>
-														<a href="single.php" class="price">Upgrade</a>
-													</div>
-												</div>
-												<div class="pricing two">
-													<div class="price-top">
-														<h3><span>$30</span></h3>
-														<h4>per year</h4>
-													</div>
-													<div class="price-bottom">
-														<ul>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Download unlimited songs</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Stream songs in High Definition</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">No ads unlimited Devices</a><div class="clearfix"></div></li>
-															<li><a class="icon" href="#"><i class="glyphicon glyphicon-ok"></i></a><a class="text" href="#">Stream songs in High Definition</a><div class="clearfix"></div></li>
-														</ul>
-														<a href="single.php" class="price">Upgrade</a>
-													</div>
-												</div>
-													<div class="clearfix"></div>
-												</div>
-												<!--//end-pricing-tables-->
-												</div>
-											</div>
+								
+											
 													 <!--//music-right-->
 											<div class="clearfix"></div>
-			 	 <!-- /w3l-agile-its -->
 										</div>
 						<!--body wrapper start-->
 						
 						<div class="review-slider">
 								<div class="tittle-head">
-									<h3 class="tittle">Featured Albums <span class="new"> New</span></h3>
+									
 									<div class="clearfix"> </div>
 								</div>
 								 <ul id="flexiselDemo1">
@@ -595,7 +553,7 @@ function logout() {
 									</div>
 								</li>
 								<li>
-									<a href="single.php"><img src="images/v6.jpeg" alt=""/></a>
+									<a href="single.php"><img src="images/v6.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Fifty Shades </h4></div>
 									<div class="date-city">
 										<h5>Jan-02-16</h5>
@@ -637,7 +595,7 @@ function logout() {
 								</div>
 							<div class="clearfix"></div>
 						<!--body wrapper end-->
- 	 <!-- /w3l-agile -->
+ 	 
 					</div>
 			  <!--body wrapper end-->
 			     <div class="footer">
@@ -678,7 +636,7 @@ function logout() {
 				  </div>
 					  <div class="footer-grid">
 						<h3>Newsletter</h3>
-						<p class="footer_desc">Nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
+						<p class="footer_desc">AllMusic New Releases. Sign up for our free weekly email newsletter and get new featured albums delivered to your inbox.</p>
 						<div class="search_footer">
 						 <form>
 						   <input type="text" placeholder="Email...." required="">
@@ -688,15 +646,17 @@ function logout() {
 					 </div>
 					 <div class="footer-grid footer-grid_last">
 						<h3>About Us</h3>
-						<p class="footer_desc">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat enim ad minim veniam,.</p>
-						<p class="f_text">Phone:  &nbsp;&nbsp;&nbsp;00-250-2131</p>
-						<p class="email">Email : &nbsp;<span><a href="mailto:mail@example.com">info(at)mailing.com</a></span></p>	
+						<p class="footer_desc">Our mission is to maximise the opportunities for people to create and enjoy new music.</p>
+						<p class="f_text">Phone:  &nbsp;&nbsp;&nbsp; +91-8618010414</p>
+						<p class="f_text">Phone:  &nbsp;&nbsp;&nbsp; +91-6361336452</p>
+						<p class="email">Email : &nbsp;<span><a href="mailto:souju387@gmail.com">souju387@gmail.com</a></span></p>
+						<p class="email">Email : &nbsp;<span><a href="mailto:pushkalvaidya1@gmail.com">pushkalvaidya1@gmail.com</a></span></p>
 					 </div>
 					 <div class="clearfix"> </div>
 				</div>
 			</div>
        
- 	 <!-- /w3l-agile -->
+ 	 
       <!-- main content end-->
    </section>
   
