@@ -38,10 +38,8 @@ function logout() {
 						<li class="menu-list"><a href="browse.php"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>  
 							<ul class="sub-menu-list">
 								<li><a href="browse.php">Artists</a> </li>
-								<li><a href="404.php">Services</a> </li>
 							</ul>
 						</li>
-						<li><a href="blog.php"><i class="lnr lnr-book"></i><span>Blog</span></a></li>
 						<li class="menu-list"><a href="#"><i class="lnr lnr-heart"></i>  <span>My Favourities</span></a> 
 							<ul class="sub-menu-list">
 								<li><a href="radio.php">All Songs</a></li>
@@ -245,103 +243,81 @@ function logout() {
 					<!--//pop-up-box -->
 						<div class="albums">
 								<div class="tittle-head">
-									<h3 class="tittle">New Releases <span class="new">New</span></h3>
-									<a href="home.php"><h4 class="tittle">See all</h4></a>
+									<h3 class="tittle">New Releases <span class="new">New</span></h3><a href="home.php"><h4 class="tittle">See all</h4></a>
 									<div class="clearfix"> </div>
 								</div>
-								<div class="col-md-3 content-grid">
+							
+							<div class="col-md-3 content-grid">
 								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v1.jpg" title="allbum-name"></a>
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
+								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog1">Listen now</a>
 							</div>
-							<div id="small-dialog" class="mfp-hide">
-								<iframe src="https://player.vimeo.com/video/12985622"></iframe>
-								
+							<div id="small-dialog1" class="mfp-hide">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/rYEDA3JcQqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
+							
 							<div class="col-md-3 content-grid">
 								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v2.jpg" title="allbum-name"></a>
-
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v3.jpg" title="allbum-name"></a>
-
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div class="col-md-3 content-grid last-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v4.jpg" title="allbum-name"></a>
-	
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-							</div>
-							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v5.jpg" title="allbum-name"></a>
-
 								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
 							</div>
 							<div id="small-dialog" class="mfp-hide">
-								<iframe src="https://player.vimeo.com/video/12985622"></iframe>
-								
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/lPIY1-m5jmw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
+							
+							<div class="col-md-3 content-grid">
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v3.jpg" title="allbum-name"></a>
+								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog2">Listen now</a>
+							</div>
+							<div id="small-dialog2" class="mfp-hide">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/lFacNjQrtL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							
+							<div class="col-md-3 content-grid last-grid">
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v4.jpg" title="allbum-name"></a>
+								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog3">Listen now</a>
+							</div>
+							<div id="small-dialog3" class="mfp-hide">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/Wlbb3DeA3jU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							
+							<div class="col-md-3 content-grid">
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v5.jpg" title="allbum-name"></a>
+								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog4">Listen now</a>
+							</div>
+							<div id="small-dialog4" class="mfp-hide">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/xZpHE5DSgzk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							
 							<div class="col-md-3 content-grid">
 								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v6.jpg" title="allbum-name"></a>
-		
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
+								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog5">Listen now</a>
 							</div>
+							<div id="small-dialog5" class="mfp-hide">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/waU75jdUnYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							
 							<div class="col-md-3 content-grid">
 								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v7.jpg" title="allbum-name"></a>
-
-								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
+								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog6">Listen now</a>
 							</div>
+							<div id="small-dialog6" class="mfp-hide">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/qvIpG6lr17s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							
 							<div class="col-md-3 content-grid last-grid">
 								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v8.jpg" title="allbum-name"></a>
-												<a class="button play-icon popup-with-zoom-anim" href="#small-dialog">Listen now</a>
-											</div>
+								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog7">Listen now</a>
+							</div>
+							<div id="small-dialog7" class="mfp-hide">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/_Vu_nmZ1pXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							
 											<div class="clearfix"> </div>
 										</div>
 					<!--//End-albums-->
 						<!--//discover-view-->
+						</div>
 						
-						<div class="albums second">
-										<div class="tittle-head">
-											<h3 class="tittle">Discover <span class="new">View</span></h3>
-											<a href="home.php"><h4 class="tittle two">See all</h4></a>
-											<div class="clearfix"> </div>
-										</div>
-											<div class="col-md-3 content-grid">
-												<a href="single.php"><img src="images/v11.jpg" title="allbum-name"></a>
-												<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid">
-													<a href="single.php"><img src="images/v22.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-												</div>
-											<div class="col-md-3 content-grid">
-													<a href="single.php"><img src="images/v33.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-												</div>
-											<div class="col-md-3 content-grid last-grid">
-													<a href="single.php"><img src="images/v44.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid">
-													<a href="single.php"><img src="images/v55.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid">
-												<a href="single.php"><img src="images/v66.jpg" title="allbum-name"></a>
-												<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid">
-													<a href="single.php"><img src="images/v11.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="col-md-3 content-grid last-grid">
-													<a href="single.php"><img src="images/v22.jpg" title="allbum-name"></a>
-													<div class="inner-info"><a href="single.php"><h5>Pop</h5></a></div>
-											</div>
-											<div class="clearfix"> </div>
-									</div>
-								<!--//discover-view-->
-							</div>
+							<!--/div-->
 							<!--//music-left-->
 						    <!--/music-right-->
 						   <div class="music-right">
@@ -350,7 +326,8 @@ function logout() {
 									<div class="video-record-list">
 										<div id="jp_container_1" class="jp-video jp-video-270p" role="application" aria-label="media player">
 											<div class="jp-type-playlist">
-												<div id="jquery_jplayer_1" class="jp-jplayer" style="width: 480px; height: 270px;"><img id="jp_poster_0" src="video/play1.png" style="width: 480px; height: 270px; display: inline;"><video id="jp_video_0" preload="metadata" src="http://192.168.30.9/vijayaa/2015/Dec/mosaic/web/video/Ellie-Goulding.webm" title="1. Ellie-Goulding" style="width: 0px; height: 0px;"></video></div>
+												<div id="jquery_jplayer_1" class="jp-jplayer" style="width: 480px; height: 270px;"><img id="jp_poster_0" src="video/play1.png" style="width: 480px; height: 270px; display: inline;">
+												<video id="jp_video_0" preload="metadata" src="http://192.168.30.9/vijayaa/2015/Dec/mosaic/web/video/Ellie-Goulding.webm" title="1. Ellie-Goulding" style="width: 0px; height: 0px;"></video></div>
 												<div class="jp-gui">
 													<div class="jp-video-play" style="display: block;">
 														<button class="jp-video-play-icon" role="button" tabindex="0">play</button>
@@ -426,15 +403,7 @@ function logout() {
 							poster:"video/play2.png"
 						},
 						{
-							title:"3. Ellie-Goulding",
-							artist:"",
-							mp4: "video/Ellie-Goulding.mp4",
-							ogv: "video/Ellie-Goulding.ogv",
-							webmv: "video/Ellie-Goulding.webm",
-							poster:"video/play1.png"
-						},
-						{
-							title:"4. Maroon-Sugar",
+							title:"3. Maroon-Sugar",
 							artist:"",
 							mp4: "video/Maroon-Sugar.mp4",
 							ogv: "video/Maroon-Sugar.ogv",
@@ -442,29 +411,13 @@ function logout() {
 							poster:"video/play4.png"
 						},
 						{
-							title:"5. Pharrell-Williams",
+							title:"4. Pharrell-Williams",
 							artist:"",
 							mp4: "video/Pharrell-Williams.mp4",
 							ogv: "video/Pharrell-Williams.ogv",
 							webmv: "video/Pharrell-Williams.webm",
 							poster:"video/play5.png"
 						},
-						{
-							title:"6. Ellie-Goulding",
-							artist:"",
-							mp4: "video/Ellie-Goulding.mp4",
-							ogv: "video/Ellie-Goulding.ogv",
-							webmv: "video/Ellie-Goulding.webm",
-							poster:"video/play1.png"
-						},
-						{
-							title:"7. Pharrell-Williams",
-							artist:"",
-							mp4: "video/Pharrell-Williams.mp4",
-							ogv: "video/Pharrell-Williams.ogv",
-							webmv: "video/Pharrell-Williams.webm",
-							poster:"video/play5.png"
-						}
 					], {
 						swfPath: "../../dist/jplayer",
 						supplied: "webmv,ogv,mp4",
@@ -486,9 +439,19 @@ function logout() {
 										</div>
 						<!--body wrapper start-->
 						
-						<div class="review-slider">
+						<div class="albums second">
+										<div class="tittle-head">
+											
+											<div class="clearfix"> </div>
+										</div>
+											<div class="clearfix"> </div>
+									</div>
+								<!--//discover-view-->
+							
+							<div class="review-slider">
+						
 								<div class="tittle-head">
-									
+									<h3 class="tittle">Featured Albums <span class="new"> New</span></h3>
 									<div class="clearfix"> </div>
 								</div>
 								 <ul id="flexiselDemo1">
@@ -496,19 +459,19 @@ function logout() {
 									<a href="single.php"><img src="images/v1.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Adele21 </div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Nov-29-2010</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Rolling_in_the_Deep">READ MORE</a>
 										</div>
 									</div>
 								</li>
 								<li>
 									<a href="single.php"><img src="images/v2.jpg" alt=""/></a>
-									<div class="slide-title"><h4>Adele21</h4></div>
+									<div class="slide-title"><h4>Enrique Iglesias</h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Feb-24-2017</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/S%C3%BAbeme_la_Radio">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -516,9 +479,9 @@ function logout() {
 									<a href="single.php"><img src="images/v3.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Shomlock</h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Aug-25-2017</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Shonlock">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -526,9 +489,9 @@ function logout() {
 									<a href="single.php"><img src="images/v4.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Stuck on a feeling</h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Dec-10-2014</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Prince_Royce">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -536,19 +499,29 @@ function logout() {
 									<a href="single.php"><img src="images/v5.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Ricky Martine </h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Mar-11-2015</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Ricky_Martin">READ MORE</a>
 										</div>
 									</div>
 								</li>
 								<li>
-									<a href="single.php"><img src="images/v6.jpg" alt=""/></a>
-									<div class="slide-title"><h4>Ellie Goluding </h4></div>
+									<a href="single.php"><img src="images/v8.jpg" alt=""/></a>
+									<div class="slide-title"><h4>Bethany Dillon </h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Apr-20-2004</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Bethany_Dillon">READ MORE</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="single.php"><img src="images/v7.jpg" alt=""/></a>
+									<div class="slide-title"><h4>Yoan </h4></div>
+									<div class="date-city">
+										<h5>Mar-20-2015</h5>
+										<div class="buy-tickets">
+											<a href="https://en.wikipedia.org/wiki/Yoan_Garneau">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -556,9 +529,9 @@ function logout() {
 									<a href="single.php"><img src="images/v6.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Fifty Shades </h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Feb-10-2015</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Fifty_Shades_of_Grey_(soundtrack)">READ MORE</a>
 										</div>
 									</div>
 								</li>
