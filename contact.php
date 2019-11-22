@@ -40,18 +40,8 @@ function logout() {
 					<ul class="nav nav-pills nav-stacked custom-nav">
 						<li class="active"><a href="home.php"><i class="lnr lnr-home"></i><span>Home</span></a></li>
 						<li><a href="radio.php"><i class="camera"></i> <span>Radio</span></a></li>
-						<li><a href="radio.php"><i class="lnr lnr-users"></i> <span>Artists</span></a></li> 
-						<li><a href="browse.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
-						<li class="menu-list"><a href="browse.php"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>  
-							<ul class="sub-menu-list">
-								<li><a href="browse.php">Artists</a> </li>
-							</ul>
-						</li>
-						<li class="menu-list"><a href="#"><i class="lnr lnr-heart"></i>  <span>My Favourities</span></a> 
-							<ul class="sub-menu-list">
-								<li><a href="radio.php">All Songs</a></li>
-							</ul>
-						</li>
+
+						<li><a href="albums.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
 						<li class="menu-list"><a href="contact.php"><i class="fa fa-thumb-tack"></i><span>Contact</span></a>
 							<ul class="sub-menu-list">
 								<li><a href="contact.php">Location</a> </li>
@@ -209,7 +199,7 @@ function logout() {
 					<ul class="list1">
 					  <li><a href="home.php">Home</a></li>
 					  <li><a href="radio.php">All Songs</a></li>
-					  <li><a href="browse.php">Albums</a></li>
+					  <li><a href="albums.php">Albums</a></li>
 					  <li><a href="radio.php">New Collections</a></li>
 					  <li><a href="blog.php">Blog</a></li>
 					  <li><a href="contact.php">Contact</a></li>

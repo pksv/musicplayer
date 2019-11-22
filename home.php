@@ -33,18 +33,7 @@ function logout() {
 					<ul class="nav nav-pills nav-stacked custom-nav">
 						<li class="active"><a href="home.php"><i class="lnr lnr-home"></i><span>Home</span></a></li>
 						<li><a href="radio.php"><i class="camera"></i> <span>Radio</span></a></li>
-						<li><a href="radio.php"><i class="lnr lnr-users"></i> <span>Artists</span></a></li> 
-						<li><a href="browse.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
-						<li class="menu-list"><a href="browse.php"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>  
-							<ul class="sub-menu-list">
-								<li><a href="browse.php">Artists</a> </li>
-							</ul>
-						</li>
-						<li class="menu-list"><a href="#"><i class="lnr lnr-heart"></i>  <span>My Favourities</span></a> 
-							<ul class="sub-menu-list">
-								<li><a href="radio.php">All Songs</a></li>
-							</ul>
-						</li>
+						<li><a href="albums.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
 						<li class="menu-list"><a href="contact.php"><i class="fa fa-thumb-tack"></i><span>Contact</span></a>
 							<ul class="sub-menu-list">
 								<li><a href="contact.php">Location</a> </li>
@@ -248,7 +237,7 @@ function logout() {
 								</div>
 							
 							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v1.jpg" title="allbum-name"></a>
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog1"><img src="images/v1.jpg" title="allbum-name"></a>
 								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog1">Listen now</a>
 							</div>
 							<div id="small-dialog1" class="mfp-hide">
@@ -264,7 +253,7 @@ function logout() {
 							</div>
 							
 							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v3.jpg" title="allbum-name"></a>
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog2"><img src="images/v3.jpg" title="allbum-name"></a>
 								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog2">Listen now</a>
 							</div>
 							<div id="small-dialog2" class="mfp-hide">
@@ -272,7 +261,7 @@ function logout() {
 							</div>
 							
 							<div class="col-md-3 content-grid last-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v4.jpg" title="allbum-name"></a>
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog3"><img src="images/v4.jpg" title="allbum-name"></a>
 								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog3">Listen now</a>
 							</div>
 							<div id="small-dialog3" class="mfp-hide">
@@ -280,7 +269,7 @@ function logout() {
 							</div>
 							
 							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v5.jpg" title="allbum-name"></a>
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog4"><img src="images/v5.jpg" title="allbum-name"></a>
 								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog4">Listen now</a>
 							</div>
 							<div id="small-dialog4" class="mfp-hide">
@@ -288,7 +277,7 @@ function logout() {
 							</div>
 							
 							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v6.jpg" title="allbum-name"></a>
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog5"><img src="images/v6.jpg" title="allbum-name"></a>
 								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog5">Listen now</a>
 							</div>
 							<div id="small-dialog5" class="mfp-hide">
@@ -296,7 +285,7 @@ function logout() {
 							</div>
 							
 							<div class="col-md-3 content-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v7.jpg" title="allbum-name"></a>
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog6"><img src="images/v7.jpg" title="allbum-name"></a>
 								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog6">Listen now</a>
 							</div>
 							<div id="small-dialog6" class="mfp-hide">
@@ -304,7 +293,7 @@ function logout() {
 							</div>
 							
 							<div class="col-md-3 content-grid last-grid">
-								<a class="play-icon popup-with-zoom-anim" href="#small-dialog"><img src="images/v8.jpg" title="allbum-name"></a>
+								<a class="play-icon popup-with-zoom-anim" href="#small-dialog7"><img src="images/v8.jpg" title="allbum-name"></a>
 								<a class="button play-icon popup-with-zoom-anim" href="#small-dialog7">Listen now</a>
 							</div>
 							<div id="small-dialog7" class="mfp-hide">
@@ -577,7 +566,7 @@ function logout() {
 					<ul class="list1">
 					  <li><a href="home.php">Home</a></li>
 					  <li><a href="radio.php">All Songs</a></li>
-					  <li><a href="browse.php">Albums</a></li>
+					  <li><a href="albums.php">Albums</a></li>
 					  <li><a href="radio.php">New Collections</a></li>
 					  <li><a href="blog.php">Blog</a></li>
 					  <li><a href="contact.php">Contact</a></li>

@@ -41,18 +41,8 @@ function logout() {
 						<li class="active"><a href="home.php"><i class="lnr lnr-home"></i><span>Home</span></a></li>
 						
 						<li><a href="radio.php"><i class="camera"></i> <span>Radio</span></a></li>
-						<li><a href="radio.php"><i class="lnr lnr-users"></i> <span>Artists</span></a></li> 
-						<li><a href="browse.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
-						<li class="menu-list"><a href="browse.php"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>  
-							<ul class="sub-menu-list">
-								<li><a href="browse.php">Artists</a> </li>
-							</ul>
-						</li>
-						<li class="menu-list"><a href="#"><i class="lnr lnr-heart"></i>  <span>My Favourities</span></a> 
-							<ul class="sub-menu-list">
-								<li><a href="radio.php">All Songs</a></li>
-							</ul>
-						</li>
+
+						<li><a href="albums.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
 						<li class="menu-list"><a href="contact.php"><i class="fa fa-thumb-tack"></i><span>Contact</span></a>
 							<ul class="sub-menu-list">
 								<li><a href="contact.php">Location</a> </li>
@@ -283,32 +273,30 @@ function logout() {
 							<a href="#">
 								<img class="media-object" src="images/c1.jpg" alt="">
 							</a>
-							<h5><a href="#">Username</a></h5>
+							<h5><a href="#">Tina</a></h5>
 						</div>
 						<div class="media-body response-text-right">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>It's a good website with nice interface. I will however, suggest, 1 feature, feature to export and import your playlists, favorites etc from one music website to another. This would be of huge relief for ones who listens music primarily through online music websites only.</p>
 							<ul>
 								<li>Sep 21, 2015</li>
 								<li><a href="single.php">Reply</a></li>
-							</ul>
-							<div class="media response-info">
-								<div class="media-left response-text-left">
-									<a href="#">
-										<img class="media-object" src="images/c2.jpg" alt="">
-									</a>
-									<h5><a href="#">Username</a></h5>
-								</div>
-								<div class="media-body response-text-right">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									<ul>
-										<li>Apr 17, 2016</li>
-										<li><a href="single.php">Reply</a></li>
-									</ul>		
-								</div>
-								<div class="clearfix"> </div>
-							</div>
+							</ul>		
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="media response-info">
+						<div class="media-left response-text-left">
+							<a href="#">
+								<img class="media-object" src="images/c2.jpg" alt="">
+							</a>
+							<h5><a href="#">Abhishek Pandey</a></h5>
+						</div>
+						<div class="media-body response-text-right">
+							<p>An underdevelopment classic website (at present with lot of bugs) of this field...music, podcast & radio and much more on the way (I think so) ☺</p>
+							<ul>
+								<li>Apr 17, 2016</li>
+								<li><a href="single.php">Reply</a></li>
+							</ul>		
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -317,11 +305,10 @@ function logout() {
 							<a href="#">
 								<img class="media-object" src="images/c3.jpg" alt="">
 							</a>
-							<h5><a href="#">Username</a></h5>
+							<h5><a href="#">Chitra Jain</a></h5>
 						</div>
 						<div class="media-body response-text-right">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Website is very good. Good colors used in UI design but there is minor issues. You should keep featured artists at the top of the app. Many people listen to their favourite singers. So Artists name should be at top while opening the app.</p>
 							<ul>
 								<li>May 21,2016</li>
 								<li><a href="single.php">Reply</a></li>
@@ -334,32 +321,30 @@ function logout() {
 							<a href="#">
 								<img class="media-object" src="images/c4.jpg" alt="">
 							</a>
-							<h5><a href="#">Username</a></h5>
+							<h5><a href="#">Sikander Attli</a></h5>
 						</div>
 						<div class="media-body response-text-right">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>I love this music player website. I learned songs from it and my daughter want to be singer So, I use it, love it!! It's amazing and totally out standing! </p>
 							<ul>
 								<li>Mar 28, 2016</li>
 								<li><a href="single.php">Reply</a></li>
-							</ul>
-							<div class="media response-info">
-								<div class="media-left response-text-left">
-									<a href="#">
-										<img class="media-object" src="images/c5.jpg" alt="">
-									</a>
-									<h5><a href="#">Username</a></h5>
-								</div>
-								<div class="media-body response-text-right">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									<ul>
-										<li>Feb 19, 2016</li>
-										<li><a href="single.php">Reply</a></li>
-									</ul>		
-								</div>
-								<div class="clearfix"> </div>
-							</div>
+							</ul>		
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="media response-info">
+						<div class="media-left response-text-left">
+							<a href="#">
+								<img class="media-object" src="images/c5.jpg" alt="">
+							</a>
+							<h5><a href="#">Fiona D'sa</a></h5>
+						</div>
+						<div class="media-body response-text-right">
+							<p>Amazing collection. Very cimfortable user interface and play quality. Easily the best music app and leading the pack by quite the margin.</p>
+							<ul>
+								<li>Feb 19, 2016</li>
+								<li><a href="single.php">Reply</a></li>
+							</ul>		
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -368,11 +353,10 @@ function logout() {
 							<a href="#">
 								<img class="media-object" src="images/c6.jpg" alt="">
 							</a>
-							<h5><a href="#">Username</a></h5>
+							<h5><a href="#">Amarpal Singh</a></h5>
 						</div>
 						<div class="media-body response-text-right">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,There are many variations of passages of Lorem Ipsum available, 
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Best website. Almost all songs are available. Video of the songs are also available. Hence, an all in one Website for music. Collection is good, loads to listen to.</p>
 							<ul>
 								<li>Jan 20, 2016</li>
 								<li><a href="single.php">Reply</a></li>
@@ -381,7 +365,7 @@ function logout() {
 						<div class="clearfix"> </div>
 					</div>
 				</div>
-				 	 <!-- /agileits -->
+				 	 
 				<div class="clearfix"> </div>
 						<!--//music-right-->
 						
@@ -528,7 +512,7 @@ function logout() {
 					<ul class="list1">
 					  <li><a href="home.php">Home</a></li>
 					  <li><a href="radio.php">All Songs</a></li>
-					  <li><a href="browse.php">Albums</a></li>
+					  <li><a href="albums.php">Albums</a></li>
 					  <li><a href="radio.php">New Collections</a></li>
 					  <li><a href="blog.php">Blog</a></li>
 					  <li><a href="contact.php">Contact</a></li>
@@ -591,3 +575,4 @@ function logout() {
 <script src="js/bootstrap.js"></script>
 </body>
 </html>
+								<div class="media-body response-text-right">

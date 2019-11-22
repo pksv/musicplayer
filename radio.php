@@ -41,18 +41,8 @@ function logout() {
 					<ul class="nav nav-pills nav-stacked custom-nav">
 						<li class="active"><a href="home.php"><i class="lnr lnr-home"></i><span>Home</span></a></li>
 						<li><a href="radio.php"><i class="camera"></i> <span>Radio</span></a></li>
-						<li><a href="radio.php"><i class="lnr lnr-users"></i> <span>Artists</span></a></li> 
-						<li><a href="browse.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
-						<li class="menu-list"><a href="browse.php"><i class="lnr lnr-indent-increase"></i> <span>Browser</span></a>  
-							<ul class="sub-menu-list">
-								<li><a href="browse.php">Artists</a> </li>
-							</ul>
-						</li>
-						<li class="menu-list"><a href="#"><i class="lnr lnr-heart"></i>  <span>My Favourities</span></a> 
-							<ul class="sub-menu-list">
-								<li><a href="radio.php">All Songs</a></li>
-							</ul>
-						</li>
+
+						<li><a href="albums.php"><i class="lnr lnr-music-note"></i> <span>Albums</span></a></li>						
 						<li class="menu-list"><a href="contact.php"><i class="fa fa-thumb-tack"></i><span>Contact</span></a>
 							<ul class="sub-menu-list">
 								<li><a href="contact.php">Location</a> </li>
@@ -163,7 +153,7 @@ function logout() {
 						<div class="browse">
 								<div class="tittle-head two">
 									<h3 class="tittle">New Releses <span class="new">New</span></h3>
-									 <a href="browse.php"><h4 class="tittle third">See all</h4></a>
+									 <a href="albums.php"><h4 class="tittle third">See all</h4></a>
 									<div class="clearfix"> </div>
 								</div>
 								<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
@@ -606,7 +596,7 @@ function logout() {
 								<div class="albums fourth">
 										<div class="tittle-head two">
 											<h3 class="tittle">Discover <span class="new">View</span></h3>
-											<a href="browse.php"><h4 class="tittle third">See all</h4></a>
+											<a href="albums.php"><h4 class="tittle third">See all</h4></a>
 											<div class="clearfix"> </div>
 										</div>
 											<div class="col-md-3 artist-grid">
@@ -663,6 +653,7 @@ function logout() {
 							</div>
 						
 						<div class="review-slider">
+						
 								<div class="tittle-head">
 									<h3 class="tittle">Featured Albums <span class="new"> New</span></h3>
 									<div class="clearfix"> </div>
@@ -672,19 +663,19 @@ function logout() {
 									<a href="single.php"><img src="images/v1.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Adele21 </div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Nov-29-2010</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Rolling_in_the_Deep">READ MORE</a>
 										</div>
 									</div>
 								</li>
 								<li>
 									<a href="single.php"><img src="images/v2.jpg" alt=""/></a>
-									<div class="slide-title"><h4>Adele21</h4></div>
+									<div class="slide-title"><h4>Enrique Iglesias</h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Feb-24-2017</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/S%C3%BAbeme_la_Radio">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -692,9 +683,9 @@ function logout() {
 									<a href="single.php"><img src="images/v3.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Shomlock</h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Aug-25-2017</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Shonlock">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -702,9 +693,9 @@ function logout() {
 									<a href="single.php"><img src="images/v4.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Stuck on a feeling</h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Dec-10-2014</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Prince_Royce">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -712,19 +703,29 @@ function logout() {
 									<a href="single.php"><img src="images/v5.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Ricky Martine </h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Mar-11-2015</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Ricky_Martin">READ MORE</a>
 										</div>
 									</div>
 								</li>
 								<li>
-									<a href="single.php"><img src="images/v6.jpg" alt=""/></a>
-									<div class="slide-title"><h4>Ellie Goluding </h4></div>
+									<a href="single.php"><img src="images/v8.jpg" alt=""/></a>
+									<div class="slide-title"><h4>Bethany Dillon </h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Apr-20-2004</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Bethany_Dillon">READ MORE</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="single.php"><img src="images/v7.jpg" alt=""/></a>
+									<div class="slide-title"><h4>Yoan </h4></div>
+									<div class="date-city">
+										<h5>Mar-20-2015</h5>
+										<div class="buy-tickets">
+											<a href="https://en.wikipedia.org/wiki/Yoan_Garneau">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -732,9 +733,9 @@ function logout() {
 									<a href="single.php"><img src="images/v6.jpg" alt=""/></a>
 									<div class="slide-title"><h4>Fifty Shades </h4></div>
 									<div class="date-city">
-										<h5>Jan-02-16</h5>
+										<h5>Feb-10-2015</h5>
 										<div class="buy-tickets">
-											<a href="single.php">READ MORE</a>
+											<a href="https://en.wikipedia.org/wiki/Fifty_Shades_of_Grey_(soundtrack)">READ MORE</a>
 										</div>
 									</div>
 								</li>
@@ -778,7 +779,7 @@ function logout() {
 					<ul class="list1">
 					  <li><a href="home.php">Home</a></li>
 					  <li><a href="radio.php">All Songs</a></li>
-					  <li><a href="browse.php">Albums</a></li>
+					  <li><a href="albums.php">Albums</a></li>
 					  <li><a href="radio.php">New Collections</a></li>
 					  <li><a href="blog.php">Blog</a></li>
 					  <li><a href="contact.php">Contact</a></li>
