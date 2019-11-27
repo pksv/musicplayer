@@ -1,20 +1,21 @@
-<!DOCTYPE HTML>
+<? php
+echo '
 <html>
 <head>
 <title>Contact</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<link rel="stylesheet" href="css/icon-font.css" type='text/css' />
+<link rel="stylesheet" href="css/icon-font.css" type="text/css" />
 <script src="js/jquery-2.1.4.js"></script>
 <script type="text/javascript">
 function logout() {
     var r = confirm("Do you really want to log out?");
     if (r) {
-       window.location.href = "sql/logout.php";
+       window.location.href="http://localhost/musicplayer/index.php";
     }
 }
 </script>
@@ -75,7 +76,7 @@ function logout() {
 									<script src="js/classie.js"></script>
 									<script src="js/uisearch.js"></script>
 										<script>
-											new UISearch( document.getElementById( 'sb-search' ) );
+											new UISearch( document.getElementById( "sb-search" ) );
 										</script>
 									<!-- //search-scripts -->
 											 <!---->
@@ -90,10 +91,10 @@ function logout() {
 												<!---->
 												<script type="text/javascript">
 													$(function(){
-													  $('#audio-player').mediaelementplayer({
+													  $("#audio-player").mediaelementplayer({
 														alwaysShowControls: true,
-														features: ['playpause','progress','volume'],
-														audioVolume: 'horizontal',
+														features: ["playpause","progress","volume"],
+														audioVolume: "horizontal",
 														iPadUseNativeControls: true,
 														iPhoneUseNativeControls: true,
 														AndroidUseNativeControls: true
@@ -116,7 +117,7 @@ function logout() {
 											<div class="col-md-4 login-pop">
 												<div id="loginpop"><a id="loginButton"><span>Profile <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"></a>
 														<div id="loginBox"> 
-													<form method="post" id="loginForm">
+													<form method="post" onClick="logout()" id="loginForm">
 																	<fieldset id="body">
 																		<fieldset>
 																			  <label for="email">Email Address</label>
@@ -166,18 +167,18 @@ function logout() {
 										<div class="in-left">
 										<form action="#" method="post">
 												<p class="your-para">Your Name :</p>
-														<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+														<input type="text" value="" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "";}" required="">
 											
 														<p class="your-para">Your Mail :</p>
-														<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+														<input type="text" value="" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "";}" required="">
 														<p class="your-para">Phone Number:</p>
-														<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+														<input type="text" value="" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "";}" required="">
 
 											</form>
 										</div>
 										<div class="in-right">
 											<form>
-												<textarea placeholder="" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}" required=""></textarea>
+												<textarea placeholder="" onfocus="this.value="";" onblur="if (this.value == "") {this.value = "";}" required=""></textarea>
 												<input type="submit" value="Submit">
 											</form>
 										</div>
@@ -258,4 +259,5 @@ function logout() {
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.js"></script>
 </body>
-</html>
+</html>';
+?>

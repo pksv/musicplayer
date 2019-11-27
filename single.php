@@ -1,20 +1,21 @@
-<!DOCTYPE HTML>
+<? php
+echo '
 <html>
 <head>
 <title>Single</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<link rel="stylesheet" href="css/icon-font.css" type='text/css' />
+<link rel="stylesheet" href="css/icon-font.css" type="text/css" />
 <script src="js/jquery-2.1.4.js"></script>
 <script type="text/javascript">
 function logout() {
     var r = confirm("Do you really want to log out?");
     if (r) {
-       window.location.href = "sql/logout.php";
+       window.location.href="http://localhost/musicplayer/index.php";
     }
 }
 </script>
@@ -79,7 +80,7 @@ function logout() {
 									<script src="js/classie.js"></script>
 									<script src="js/uisearch.js"></script>
 										<script>
-											new UISearch( document.getElementById( 'sb-search' ) );
+											new UISearch( document.getElementById( "sb-search" ) );
 										</script>
 									<!-- //search-scripts -->
 											 <!---->
@@ -94,10 +95,10 @@ function logout() {
 												<!---->
 												<script type="text/javascript">
 													$(function(){
-													  $('#audio-player').mediaelementplayer({
+													  $("#audio-player").mediaelementplayer({
 														alwaysShowControls: true,
-														features: ['playpause','progress','volume'],
-														audioVolume: 'horizontal',
+														features: ["playpause","progress","volume"],
+														audioVolume: "horizontal",
 														iPadUseNativeControls: true,
 														iPhoneUseNativeControls: true,
 														AndroidUseNativeControls: true
@@ -118,9 +119,9 @@ function logout() {
 											 </ul>	
 											</div>
 											<div class="col-md-4 login-pop">
-												<div id="loginpop"><a id="loginButton"><span>Profile <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"></a>
+												<div id="loginpop"><a id="loginButton"><span>Profile <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="logout()" data-toggle="modal" data-target="#myModal5"></a>
 														<div id="loginBox"> 
-													<form method="post" id="loginForm">
+													<form method="post" id="loginForm" onClick="logout()">
 																	<fieldset id="body">
 																		<fieldset>
 																			  <label for="email">Email Address</label>
@@ -128,7 +129,7 @@ function logout() {
 																		</fieldset>
 																		<input type="submit" id="login" value="Logout" onClick="logout()">
 																	</fieldset>
-																<span><a href="#"></a></span>
+																<span><a href="logout()"></a></span>
 														 </form>
 													</div>
 												</div>
@@ -276,7 +277,7 @@ function logout() {
 							<h5><a href="#">Tina</a></h5>
 						</div>
 						<div class="media-body response-text-right">
-							<p>It's a good website with nice interface. I will however, suggest, 1 feature, feature to export and import your playlists, favorites etc from one music website to another. This would be of huge relief for ones who listens music primarily through online music websites only.</p>
+							<p>It"s a good website with nice interface. I will however, suggest, 1 feature, feature to export and import your playlists, favorites etc from one music website to another. This would be of huge relief for ones who listens music primarily through online music websites only.</p>
 							<ul>
 								<li>Sep 21, 2015</li>
 								<li><a href="single.php">Reply</a></li>
@@ -324,7 +325,7 @@ function logout() {
 							<h5><a href="#">Sikander Attli</a></h5>
 						</div>
 						<div class="media-body response-text-right">
-							<p>I love this music player website. I learned songs from it and my daughter want to be singer So, I use it, love it!! It's amazing and totally out standing! </p>
+							<p>I love this music player website. I learned songs from it and my daughter want to be singer So, I use it, love it!! It"s amazing and totally out standing! </p>
 							<ul>
 								<li>Mar 28, 2016</li>
 								<li><a href="single.php">Reply</a></li>
@@ -337,7 +338,7 @@ function logout() {
 							<a href="#">
 								<img class="media-object" src="images/c5.jpg" alt="">
 							</a>
-							<h5><a href="#">Fiona D'sa</a></h5>
+							<h5><a href="#">Fiona D"sa</a></h5>
 						</div>
 						<div class="media-body response-text-right">
 							<p>Amazing collection. Very cimfortable user interface and play quality. Easily the best music app and leading the pack by quite the margin.</p>
@@ -372,10 +373,10 @@ function logout() {
 						<div class="coment-form">
 					<h4>Leave your comment</h4>
 					<form action="#" method="post">
-						<input type="text" value="Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-						<input type="email" value="Email (will not be published)*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email (will not be published)*';}" required="">
-						<input type="text" value="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" required="">
-						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Comment...';}" required="">Your Comment...</textarea>
+						<input type="text" value="Name " onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Name";}" required="">
+						<input type="email" value="Email (will not be published)*" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Email (will not be published)*";}" required="">
+						<input type="text" value="Website" onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Website";}" required="">
+						<textarea onfocus="this.value = "";" onblur="if (this.value == "") {this.value = "Your Comment...";}" required="">Your Comment...</textarea>
 						<input type="submit" value="Submit Comment">
 					</form>
 				</div>
@@ -574,5 +575,5 @@ function logout() {
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.js"></script>
 </body>
-</html>
-								<div class="media-body response-text-right">
+</html>';
+?>

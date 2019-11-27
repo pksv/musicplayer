@@ -1,5 +1,5 @@
-<!DOCTYPE HTML>
-<html>
+<? php 
+echo' <html>
 <head>
 <title>Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
 function logout() {
     var r = confirm("Do you really want to log out?");
     if (r) {
-       window.location.href = "sql/logout.php";
+       window.location.href="http://localhost/musicplayer/index.php";
     }
 }
 </script>
@@ -115,9 +115,9 @@ function logout() {
 											 </ul>	
 											</div>
 											<div class="col-md-4 login-pop">
-												<div id="loginpop"><a id="loginButton"><span>Profile <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" href="#" data-toggle="modal" data-target="#myModal5"></a>
+												<div id="loginpop"><a id="loginButton"><span>Profile <i class="arrow glyphicon glyphicon-chevron-right"></i></span></a><a class="top-sign" data-toggle="modal" data-target="#myModal5"></a>
 														<div id="loginBox"> 
-													<form method="post" id="loginForm">
+													<form method="post" onClick="logout()" id="loginForm">
 																	<fieldset id="body">
 																		<fieldset>
 																			  <label for="email">Email Address</label>
@@ -125,7 +125,7 @@ function logout() {
 																		</fieldset>
 																		<input type="submit" id="login" value="Logout" onClick="logout()">
 																	</fieldset>
-																<span><a href="#"></a></span>
+																<span><a href="logout()"></a></span>
 														 </form>
 													</div>
 												</div>
@@ -232,7 +232,7 @@ function logout() {
 					<!--//pop-up-box -->
 						<div class="albums">
 								<div class="tittle-head">
-									<h3 class="tittle">New Releases <span class="new">New</span></h3><a href="home.php"><h4 class="tittle">See all</h4></a>
+									<h3 class="tittle">New Releases <span class="new">New</span></h3>
 									<div class="clearfix"> </div>
 								</div>
 							
@@ -624,7 +624,6 @@ function logout() {
   
 <script src="js/jquery.nicescroll.js"></script>
 <script src="js/scripts.js"></script>
-<!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.js"></script>
 </body>
 </html>';
