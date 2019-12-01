@@ -1,5 +1,4 @@
-<? php
-echo '
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Single</title>
@@ -575,5 +574,4 @@ function logout() {
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.js"></script>
 </body>
-</html>';
-?>
+</html>

@@ -1,5 +1,4 @@
-<? php
-echo '
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Radio</title>
@@ -755,5 +754,4 @@ function logout() {
 
 <script src="js/bootstrap.js"></script>
 </body>
-</html>';
-?>
+</html>

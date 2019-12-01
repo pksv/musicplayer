@@ -1,5 +1,5 @@
-<? php 
-echo' <html>
+<!DOCTYPE HTML>
+<html>
 <head>
 <title>Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -626,5 +626,4 @@ function logout() {
 <script src="js/scripts.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
-</html>';
-?>
+</html>
